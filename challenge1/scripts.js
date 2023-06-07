@@ -1,14 +1,14 @@
 const firstName = 'John';
 const age = 35;
-hobby = 'Coding';
+const hobby = 'Coding';
 
 const logTwice = () => {
-  console(parameter)
-  console(parameter)
+  console.log(hobby1)
+  console.log(hobby1)
 }
 
-function hobby (hobby) {
+const hobby1 = () => {
   logTwice(`Hello, ${firstName} (${age}). I love ${hobby}!`)
 }
 
-hobby()
+hobby1()

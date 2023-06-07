@@ -1,12 +1,12 @@
 // script.js
 
-function add ()  {a, b => { a + b }}
+function add (a, b, c) { a + b + c}
 
-function multiply () {a, b => { a - b }}
+function multiply (a, b, c)  { a - b - c}
 
-function internal()  {
-	const added = this.add(this.a, this.b)
-	this.multiply(this.a, this.b)
+function internal () {
+	const added = this.add(this.a, this.b, this.c)
+	this.multiply(this.a, this.b, this.c)
 	return this
 }
 
